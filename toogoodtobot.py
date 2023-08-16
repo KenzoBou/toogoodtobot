@@ -22,4 +22,3 @@ for k in items :
     if k['items_available'] > 0 :
         params = {"chat_id": "6494358014", "text": f"Un panier est disponible à {k['display_name']}"}
         r = requests.get(url + "/sendMessage", params=params)
-
