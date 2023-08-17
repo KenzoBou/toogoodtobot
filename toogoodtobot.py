@@ -7,8 +7,6 @@
 from tgtg import TgtgClient
 import requests
 
-client = TgtgClient(email="guillaume.kravitz@gmail.com")
-credentials = client.get_credentials()
 
 client = TgtgClient(access_token='e30.eyJzdWIiOiIxMTI0MDc4NjciLCJleHAiOjE2OTI0NDk4MjcsInQiOiJHUXFtdVZQZVJzU3N5ZWU1cWlwbDlBOjA6MSJ9.U94-vimALNeFtU2qNmpATQEUI8SGNi5XKWyOl2pPaGs', 
                     refresh_token='e30.eyJzdWIiOiIxMTI0MDc4NjciLCJleHAiOjE3MjM4OTk0MjcsInQiOiJ5RV83NW96WFNWeTVhV21fUmM4ejZBOjA6MCJ9.v-NFRwvU4Zd389NAMR_q4y6Jszuyio_eF7X0OozMgLs',
